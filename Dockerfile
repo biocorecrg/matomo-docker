@@ -1,5 +1,5 @@
 # Base image
-FROM matomo:4.2
+FROM matomo:4.6-apache
 
 # We add below some packages for allowing mailing from container
 RUN apt-get update -y; apt-get install -y mailutils msmtp;
